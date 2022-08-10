@@ -1,13 +1,26 @@
-num1 = int(input('Entre com o primeiro numero: '))
-num2 = int(input('Entre com o segundo numero: '))
+operation = input('''
+Selecione a operação desejada:
++ para somar
+- para subtrair
+* para multplicar
+/ para dividir
 
-print(f'{num1}+{num2} =', num1+num2)
+''')
 
-# subtração
-print(f'{num1} - {num2} =', num1-num2)
+print('Entre com dois números')
+num1 = int(input("primeiro número"))
+num2 = int(input("segundo número"))
 
-# multiplicação 
-print(f'{num1} * {num2} =', num1 * num2)
-
-# divisão
-print(f'{num1} / {num2} =', num1 / num2)
+if(operation=='+'):
+    print(f'{num1}+{num2} = ', num1 + num2)
+elif operation == '-':
+    # subtração
+    print(f'{num1} - {num2} = ', num1 - num2)
+elif operation == '*':
+    # multiplicação 
+    print(f'{num1} * {num2} = ', num1 * num2)
+elif operation == '/':
+    # divisão
+    print(f'{num1} / {num2} = ', num1 / num2)
+else:
+    print('teve um erro inesperado')
