@@ -9,4 +9,5 @@ print(f'{num1} - {num2} =', num1-num2)
 # multiplicação 
 print(f'{num1} * {num2} =', num1 * num2)
 
+# divisão
 print(f'{num1} / {num2} =', num1 / num2)
