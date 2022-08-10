@@ -23,4 +23,4 @@ elif operation == '/':
     # divisão
     print(f'{num1} / {num2} = ', num1 / num2)
 else:
-    print('teve um erro inesperado')
+    print('teve um erro inesperado, dados inseridos de forma errado')
